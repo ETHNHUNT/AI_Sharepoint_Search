@@ -1,0 +1,9 @@
+requests
+faiss-cpu
+ollama
+pdfplumber
+pandas
+python-docx
+gradio
+python-doten
+python-multipart
