@@ -38,24 +38,24 @@ CLIENT_SECRET="your_client_secret"
 3. Access Gradio UI at http://localhost:7860
 
 ## Security 🔒
-Credentials stored in environment variables
-Azure AD OAuth2 client credentials flow
+1. Credentials stored in environment variables
+2. Azure AD OAuth2 client credentials flow3. 
 Local FAISS index storage
-Token-based SharePoint access
+4. Token-based SharePoint access
 
 ## Troubleshooting 🐛
-Issue	Solution
-401 Errors	Verify Azure AD permissions
-Missing Documents	Check SharePoint API access
-Embedding Failures	Confirm Ollama service running
-Index Errors	Rebuild FAISS index
+  Issue	                  Solution
+1. 401 Errors	            Verify Azure AD permissions
+2. Missing Documents	    Check SharePoint API access
+3. Embedding Failures	    Confirm Ollama service running
+4. Index Errors	          Rebuild FAISS index
 
 ## requirements.txt
-requests==2.32.3
-faiss-cpu==1.10.0
-ollama==0.4.6
-gradio==5.20.0
-python-dotenv==1.0.0
-numpy==2.2.2
-PyPDF2==3.0.1
-docx2txt==0.8
+1. requests
+2. faiss-cpu
+3. ollama
+4. gradio
+5. python-dotenv
+6. numpy
+7. PyPDF2
+8. docx2txt
