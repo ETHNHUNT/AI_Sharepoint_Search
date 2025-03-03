@@ -43,13 +43,6 @@ CLIENT_SECRET="your_client_secret"
 Local FAISS index storage
 4. Token-based SharePoint access
 
-## Troubleshooting 🐛
-  Issue	                  Solution
-1. 401 Errors	            Verify Azure AD permissions
-2. Missing Documents	    Check SharePoint API access
-3. Embedding Failures	    Confirm Ollama service running
-4. Index Errors	          Rebuild FAISS index
-
 ## requirements.txt
 1. requests
 2. faiss-cpu
@@ -59,3 +52,48 @@ Local FAISS index storage
 6. numpy
 7. PyPDF2
 8. docx2txt
+
+## Future Enhancements 🚧
+
+### Planned Features
+- **Multi-Language Support**: Add multilingual search capabilities
+- **Document Preview**: In-UI file content previews
+- **Version Control**: Track document versions in index
+- **Access Control**: RBAC integration with Azure AD groups
+- **Hybrid Search**: Combine vector + keyword search
+- **API Endpoints**: REST API for system integration
+- **Notifications**: Email alerts for new matches
+
+### Technical Roadmap
+- **Performance Optimization**: 
+  - Batch embedding generation
+  - GPU-accelerated FAISS
+- **Advanced NLP**:
+  - Query expansion
+  - Synonym recognition
+- **Storage**:
+  - Cloud sync for indexes
+  - Delta indexing
+- **Security**:
+  - Audit logging
+  - Encryption-at-rest
+
+## Current Development 🔨
+
+### In Progress
+- **Real-Time Indexing**: Auto-update on document changes
+- **UI Improvements**:
+  - Paginated results
+  - Relevance scoring visualization
+- **Advanced Filters**:
+  - Date range filtering
+  - File type filters
+- **Error Handling**:
+  - Retry mechanisms
+  - Detailed error logging
+
+### Experimental Features
+- **Chat Interface**: Conversational document Q&A
+- **Cross-Site Search**: Unified search across multiple sites
+- **Image OCR**: Text extraction from images/PDFs
+- **Custom Models**: Fine-tuned embeddings for SharePoint
